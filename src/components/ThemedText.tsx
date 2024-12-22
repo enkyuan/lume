@@ -20,9 +20,10 @@ export const ThemedText = React.forwardRef<Text, ThemedTextProps>(
         style={[
           { color },
           type === "default" ? styles.default : undefined,
-          type === "title" ? styles.title : undefined,
           type === "defaultSemiBold" ? styles.defaultSemiBold : undefined,
+          type === "title" ? styles.title : undefined,
           type === "subtitle" ? styles.subtitle : undefined,
+          type === "header" ? styles.header : undefined,
           type === "link" ? styles.link : undefined,
           style,
         ]}
@@ -44,11 +45,16 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.semibold,
   },
   title: {
+    fontSize: 48,
+    lineHeight: 56,
+    fontFamily: Fonts.bold,
+  },
+  subtitle: {
     fontSize: 32,
     lineHeight: 40,
     fontFamily: Fonts.bold,
   },
-  subtitle: {
+  header: {
     fontSize: 20,
     fontFamily: Fonts.bold,
   },

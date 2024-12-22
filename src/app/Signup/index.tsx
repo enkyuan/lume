@@ -42,13 +42,13 @@ export default function SignupScreen() {
 
         <View style={{ paddingTop: insets.top }}>
           <View className="items-center mt-[4%] mb-[8%]">
-            <ThemedText type="title" className="justify-center">
+            <ThemedText type="subtitle" className="justify-center">
               Sign up with Email
             </ThemedText>
           </View>
 
           <View className="mx-[8%]">
-            <ThemedText type="subtitle">Email</ThemedText>
+            <ThemedText type="header">Email</ThemedText>
           </View>
 
           <View className="items-center my-[2%]">
@@ -60,7 +60,7 @@ export default function SignupScreen() {
           </View>
 
           <View className="mx-[8%]">
-            <ThemedText type="subtitle">Password</ThemedText>
+            <ThemedText type="header">Password</ThemedText>
           </View>
 
           <View className="items-center my-[2%]">
@@ -73,7 +73,7 @@ export default function SignupScreen() {
           </View>
 
           <View className="mx-[8%]">
-            <ThemedText type="subtitle">Confirm Password</ThemedText>
+            <ThemedText type="header">Confirm Password</ThemedText>
           </View>
 
           <View className="items-center my-[2%]">

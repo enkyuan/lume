@@ -26,10 +26,9 @@ export default function LoginOptionsScreen() {
         style={{ paddingTop: paddingTop }}
         className="flex flex-col justify-center mx-[8%]"
       >
-        <Image
-          source={require("@/assets/images/gather-logo.png")}
-          className="flex w-24 h-24 my-[12%]"
-        />
+        <ThemedText type="title" className="flex my-[16%]">
+          Lume
+        </ThemedText>
 
         <Button
           type="full"
