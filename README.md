@@ -1,10 +1,10 @@
-# Gather Connect App
+# Lume App
 
 [//]: # (TODO: document all of this code into a wiki prior to deployment)
 
 ## about
 
-this is the codebase for the Gather Connect app
+this is the codebase for the Lume app
 
 ## available on
 <p id="badges" align="start">
